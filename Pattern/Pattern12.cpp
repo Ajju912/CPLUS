@@ -7,9 +7,9 @@ int main() {
         for(int c=1;c<=n-r;c++){
             cout<<"   ";
         }
-        for(int c=1;c<=r;c++){
-            cout<<" * ";
-            
+        for(int c=1;c<=(2*r)-1;c++){
+            if(c%2==0) cout<<" ! ";
+            else cout<<" * ";
         }
         cout<<"\n";
     }
